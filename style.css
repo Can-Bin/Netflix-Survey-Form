@@ -15,7 +15,7 @@ body {
     font-family: 'Bowlby One SC', cursive;
     text-align: center;
     font-size: 50px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     
 }
@@ -39,13 +39,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 auto;
+        
 }
 
 #survey-form {
     text-align: center;
     background-color:rgba(0,0,0,0.7);
-    margin: 15px 700px;
+    width: 400px;
+    margin: 15px auto;
     height: auto;
     font-size: 20px;
 }
